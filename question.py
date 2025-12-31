@@ -67,7 +67,7 @@ nl1=list(stdRollNo)
 stdclass  = ["A" , "B"]
 school = stdName + nl1
 school.extend(stdclass)
-print(school)
+print("this is school",school)
 
 # Remove a specific element from a list using remove().
 stdName   = ["Chetan", "Yogesh", "Nilima", "Shivani", "Mayur","Pratiksha", "Lankesh", "Gayatri"]
@@ -174,9 +174,9 @@ print(set1)
 set_a = {"Apple", "Banana", "Cherry", "Date"}
 set_b = {"Banana", "Dragonfruit", "Date", "Elderberry"}
 
-set_c = set_a & set_b
+set_c = set_a | set_b
 
-print(set_c)
+print("this is set c" ,set_c)
 
 #Find elements present in the first set but not in the second set
 
