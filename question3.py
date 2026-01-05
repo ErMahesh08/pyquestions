@@ -31,12 +31,12 @@ def student(fname, lname):
 student("Alice", "Johnson") 
 
 #Write a function marks(m1, m2, m3) that prints all three marks.
-# Mark1 = int(input("Enter first mark: "))
-# Mark2 = int(input("Enter second mark: "))
-# Mark3 = int(input("Enter third mark: "))
-# def marks(m1, m2, m3):
-#     print("Marks:", m1, m2, m3)
-# marks(Mark1, Mark2, Mark3)
+Mark1 = int(input("Enter first mark: "))
+Mark2 = int(input("Enter second mark: "))
+Mark3 = int(input("Enter third mark: "))
+def marks(m1, m2, m3):
+    print("Marks:", m1, m2, m3)
+marks(Mark1, Mark2, Mark3)
 
 # Write a function kids(names) that prints all kids names.
 def kids(names):

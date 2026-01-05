@@ -177,12 +177,13 @@ match grade:
 person_name = input("Enter the name: ")
 person_age = int(input("Enter the age: "))
 match person_name:
-    case "Mahesh" if person_age >= 18:
-        print("Mahesh is an adult.")
-    case "Saurabh" if person_age < 18:
-        print("Saurabh is a minor.")
+    case person_name if person_age >= 18:
+        print(f"{person_name} is an adult.")
+    case person_name if person_age < 18:
+        print(f"{person_name} is a minor.")
     case _:
         print("Unknown person or age.")
+
 
 
         
